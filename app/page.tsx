@@ -3,14 +3,17 @@ export default function WeightLossLandingPage() {
     {
       title: "Healthy Eating",
       desc: "Simple meal strategies and balanced nutrition plans for sustainable fat loss.",
+      icon: "🥗",
     },
     {
       title: "Daily Workouts",
       desc: "Easy beginner-friendly exercises you can do at home without equipment.",
+      icon: "🏋️",
     },
     {
       title: "Mind & Motivation",
       desc: "Stay consistent with positive habits, sleep, hydration, and motivation.",
+      icon: "🧠",
     },
   ];
 
@@ -21,10 +24,18 @@ export default function WeightLossLandingPage() {
     "Healthy Foods That Burn Fat Faster",
   ];
 
-  const AD_COMBO_LINK = "https://uh4f4601a5uh.uewhbgfvds.cc/?target=-7EBNQCgQAAAdSBwUDHW4ABQEBEREKEQkKEQ1CEQ0SAAF_YWRjb21ibwEx";
+  const AD_COMBO_LINK =
+    "https://uh4f4601a5uh.uewhbgfvds.cc/?target=-7EBNQCgQAAAdSBwUDHW4ABQEBEREKEQkKEQ1CEQ0SAAF_YWRjb21ibwEx";
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-white text-gray-800">
+      {/* Google Ads Script */}
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3816913560694484"
+        crossOrigin="anonymous"
+      ></script>
+
       {/* Hero Section */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-green-500/10 to-emerald-300/10 blur-3xl"></div>
@@ -41,7 +52,8 @@ export default function WeightLossLandingPage() {
             </h1>
 
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Discover smart nutrition, simple workouts, and healthy habits that help you lose weight safely and stay motivated every day.
+              Discover smart nutrition, simple workouts, and healthy habits
+              that help you lose weight safely and stay motivated every day.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -75,9 +87,13 @@ export default function WeightLossLandingPage() {
       {/* Features */}
       <section className="max-w-7xl mx-auto px-6 py-16">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4">Healthy Weight Loss Tips</h2>
+          <h2 className="text-4xl font-bold mb-4">
+            Healthy Weight Loss Tips
+          </h2>
+
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Learn practical and realistic strategies to improve your body, energy, and lifestyle.
+            Learn practical and realistic strategies to improve your body,
+            energy, and lifestyle.
           </p>
         </div>
 
@@ -88,10 +104,11 @@ export default function WeightLossLandingPage() {
               className="bg-white rounded-3xl p-8 shadow-lg border border-green-100 hover:-translate-y-2 transition-transform"
             >
               <div className="w-14 h-14 rounded-2xl bg-green-100 flex items-center justify-center text-2xl mb-6">
-                💪
+                {tip.icon}
               </div>
 
               <h3 className="text-2xl font-semibold mb-4">{tip.title}</h3>
+
               <p className="text-gray-600 leading-relaxed">{tip.desc}</p>
             </div>
           ))}
@@ -104,6 +121,7 @@ export default function WeightLossLandingPage() {
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-10 gap-4">
             <div>
               <h2 className="text-4xl font-bold mb-2">Latest Articles</h2>
+
               <p className="text-gray-600">
                 Publish SEO-friendly articles here to get Google traffic.
               </p>
@@ -122,7 +140,7 @@ export default function WeightLossLandingPage() {
               >
                 <img
                   src={`https://picsum.photos/500/30${index}`}
-                  alt="Article"
+                  alt={article}
                   className="h-48 w-full object-cover"
                 />
 
@@ -158,7 +176,8 @@ export default function WeightLossLandingPage() {
           </h2>
 
           <p className="text-lg text-green-50 max-w-2xl mx-auto mb-8">
-            Build healthy habits, lose fat naturally, and improve your lifestyle step by step.
+            Build healthy habits, lose fat naturally, and improve your
+            lifestyle step by step.
           </p>
 
           <a
@@ -177,6 +196,7 @@ export default function WeightLossLandingPage() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-6 items-center">
           <div>
             <h3 className="text-2xl font-bold text-green-700">FitLife</h3>
+
             <p className="text-gray-500 mt-2">
               Healthy lifestyle & weight loss inspiration.
             </p>
@@ -186,12 +206,15 @@ export default function WeightLossLandingPage() {
             <a href="#" className="hover:text-green-600">
               Home
             </a>
+
             <a href="#" className="hover:text-green-600">
               Articles
             </a>
+
             <a href="#" className="hover:text-green-600">
               About
             </a>
+
             <a href="#" className="hover:text-green-600">
               Contact
             </a>
