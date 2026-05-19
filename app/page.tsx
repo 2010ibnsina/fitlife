@@ -21,6 +21,8 @@ export default function WeightLossLandingPage() {
     "Healthy Foods That Burn Fat Faster",
   ];
 
+  const AD_COMBO_LINK = "https://uh4f4601a5uh.uewhbgfvds.cc/?target=-7EBNQCgQAAAdSBwUDHW4ABQEBEREKEQkKEQ1CEQ0SAAF_YWRjb21ibwEx";
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-white text-gray-800">
       {/* Hero Section */}
@@ -43,9 +45,14 @@ export default function WeightLossLandingPage() {
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <button className="px-6 py-3 rounded-2xl bg-green-600 text-white font-semibold shadow-lg hover:scale-105 transition-transform">
-                Start Your Journey
-              </button>
+              <a
+                href={AD_COMBO_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-3 rounded-2xl bg-green-600 text-white font-semibold shadow-lg hover:scale-105 transition-transform inline-block"
+              >
+                Start Weight Loss Journey
+              </a>
 
               <button className="px-6 py-3 rounded-2xl border border-green-300 bg-white hover:bg-green-50 transition">
                 Explore Articles
@@ -128,9 +135,14 @@ export default function WeightLossLandingPage() {
                     Learn healthy strategies and simple lifestyle improvements.
                   </p>
 
-                  <button className="text-green-600 font-semibold hover:underline">
-                    Read More →
-                  </button>
+                  <a
+                    href={AD_COMBO_LINK}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-green-600 font-semibold hover:underline"
+                  >
+                    Start Now →
+                  </a>
                 </div>
               </div>
             ))}
@@ -149,9 +161,14 @@ export default function WeightLossLandingPage() {
             Build healthy habits, lose fat naturally, and improve your lifestyle step by step.
           </p>
 
-          <button className="px-8 py-4 rounded-2xl bg-white text-green-700 font-bold shadow-lg hover:scale-105 transition-transform">
+          <a
+            href={AD_COMBO_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-4 rounded-2xl bg-white text-green-700 font-bold shadow-lg hover:scale-105 transition-transform inline-block"
+          >
             Join The Journey
-          </button>
+          </a>
         </div>
       </section>
 
